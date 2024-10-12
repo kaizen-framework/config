@@ -1,5 +1,5 @@
 {
-    "name": "kaizen/config",
+    "name": "kaizen-framework/config",
     "type": "library",
     "autoload": {
         "psr-4": {
