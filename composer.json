@@ -1,0 +1,30 @@
+{
+    "name": "kaizen/config",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kaizen\\Components\\Config\\": ""
+        },
+        "exclude-from-classmap": [
+            "Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kaizen\\Components\\Config\\Tests\\": "Tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "niko-38500",
+            "email": "nicolas.montmayeur@hotmail.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "ext-yaml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
